@@ -6,6 +6,15 @@ export interface Project {
   
   export const projects: Project[] = [
     {
+      title: "Gym Scheduler Agent",
+      stack: "Python, LangChain v1+, LangGraph, FastAPI, ChromaDB, OpenAI API",
+      points: [
+        "Built a ReAct-based AI agent that analyzes calendar events, meal timings, and workout history to recommend optimal gym schedules.",
+        "Implemented long-term memory using ChromaDB to store and retrieve past workouts for recovery-aware scheduling.",
+        "Designed modular tool architecture (calendar, meals, workout memory) using LangGraph for scalable agent reasoning and future API integrations."
+      ],
+    },
+    {
       title: "Production Churn Prediction System",
       stack: "FastAPI, Scikit-Learn, Docker, Prometheus, Grafana",
       points: [
